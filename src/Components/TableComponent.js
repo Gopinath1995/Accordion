@@ -282,6 +282,8 @@ const TableComponent = () => {
             <Grid container spacing={1}>
                 <Grid item xs={12} md={12} sm={12} align="center">
                     <Typography>No Records Found</Typography>
+                    <div>Clone the https://github.com/Gopinath1995/DataServer.git</div>
+                    <div>Run the server to show the data</div>
                 </Grid>
             </Grid>
         )}
