@@ -20,6 +20,7 @@ $ yarn
 Clone the project (public repository) in another window
 
 $ git clone https://github.com/Gopinath1995/DataServer.git
+
 $ cd DataServer
 
 Install the NPM packages.
