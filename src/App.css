@@ -1,0 +1,343 @@
+:root {
+	--gray: gray;
+	--btnBackground: #4bd3c5;
+	--btn1Background: #f07167;
+	--fontFamily: "Poppins", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	font-family: var(--fontFamily) !important;
+}
+
+html {
+	font-size: 16px !important;
+	box-sizing: border-box;
+	font-family: var(--fontFamily) !important;
+}
+
+body {
+	font-family: var(--fontFamily) !important;
+	-webkit-font-smoothing: antialiased;
+	font-display: swap;
+}
+
+.pl {
+	padding-left: 20px !important;
+}
+
+.ml {
+	margin-left: 20px !important;
+}
+
+.mt {
+	margin-top: 15px !important;
+}
+
+.mb {
+	margin-bottom: 20px !important;
+}
+
+.pt {
+	padding-top: 15px !important;
+}
+
+.pr {
+	padding-left: 20px !important;
+}
+
+.mr {
+	margin-right: 15px !important;
+}
+
+.mx {
+	margin-right: 15px !important;
+	margin-left: 15px !important;
+}
+
+.my {
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+}
+
+.px {
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+}
+
+.py {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
+
+.d-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.d-inline-flex {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.gray-text {
+	color: var(--gray) !important;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;	
+	min-height: 100vh; 
+	overflow-y: auto;
+	padding:20px;
+}
+
+.btn {
+	margin: 0 12px;
+	width: 140px;
+	background-color: var(--btnBackground) !important;
+	color: #fff !important;
+	outline: none;
+	border: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	line-height: 1.5;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	padding: 0.75rem 1rem;
+	border-radius: 0.9rem;
+	font-family: var(--fontFamily) !important;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn1 {
+	margin: 0 12px;
+	width: 140px;
+	background-color: var(--btn1Background) !important;
+	color: #fff !important;
+	outline: none;
+	border: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	line-height: 1.5;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	cursor: pointer;
+	padding: 0.75rem 1rem;
+	border-radius: 0.9rem;
+	font-family: var(--fontFamily) !important;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn:hover,
+.btn1:hover {
+	filter: contrast(90%);
+}
+
+.btn:active,
+.btn1:active {
+	transform: translateY(0px) scale(0.98);
+	filter: brightness(0.9);
+}
+
+button:disabled {
+	opacity: 0.5;
+	cursor: none;
+}
+
+.statusBtn{
+	width: 110px;
+    padding: 2px;
+    color: #fff !important;
+    font-size: 12px;
+}
+
+.form_textfield {
+	font-family: "Poppins", sans-serif !important;	
+} 
+
+.form_textfield>.MuiInputBase-root {
+	color: #00afb9 !important;
+	font-size: 14px !important;
+}
+
+.form_textfield>.MuiInputBase-root > .MuiInputBase-input {
+	font-size: 14px !important;
+}
+
+.form_textfield>.MuiInput-underline:after {
+	border-bottom: 2px solid #00afb9 !important;
+}
+
+.form_textfield>.MuiFormLabel-root.Mui-focused {
+	color: #00afb9 !important;
+}
+
+.form-dropdown>.MuiInput-underline:after {
+	border-bottom: 2px solid #00afb9 !important;
+}
+
+.form_textfield>.MuiOutlinedInput-root>.MuiInputBase-input {
+	padding: 10px 14px !important;
+}
+
+.form-dropdown>.MuiInput-root {
+	color: #00afb9 !important;
+	font-size: 14px !important;
+}
+.form-dropdown>.MuiInput-root  > .MuiInputBase-input {
+	font-size: 14px !important;
+}
+.form-dropdown>.MuiInputBase-root  > .MuiSelect-root {
+	font-size: 14px !important;
+}
+
+.form-dropdown>.MuiFormLabel-root.Mui-focused {
+	color: #00afb9 !important;
+}
+
+.form_search_field>.MuiInputBase-root>.MuiInputAdornment-root>.MuiButtonBase-root>.MuiIconButton-label>.MuiSvgIcon-root {
+	color: #00afb9 !important;
+}
+
+.date_search_field>.MuiInputBase-root>.MuiInputAdornment-root>.MuiButtonBase-root>.MuiIconButton-label>.MuiSvgIcon-root {
+	color: #00afb9 !important;
+}
+
+.errorText {
+	color: red !important;
+	font-size: 12px;
+}
+
+.adjs {
+	font-size: 12px;
+}
+
+.loaderAdj {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 70vh;
+}
+
+.MuiCircularProgress-root {
+	color: #4bd3c5 !important;
+}
+
+.listItems.MuiListItem-gutters {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.listItems.MuiListItem-root {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+@media only screen and (max-width:1367px) {
+	.form-dropdown>.MuiInput-root,
+	.form_textfield>.MuiInputBase-root {
+		font-size: 14px !important;
+	}
+}
+
+.header_title {
+	font-size: 21px;
+	text-align: center;
+}
+
+.module_title {
+	font-size: 20px;
+}
+
+.form_search_field {
+	width: 100%;	
+}
+
+
+
+.srchbtn {
+	background: #f07167;
+	border: none;
+	width: 100px;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	border-radius: 9px;
+}
+
+.srchbtn:focus {
+	border: 1px solid #a84f48;
+}
+
+.table_head {
+	background-color: #4bd3c5 !important;
+}
+
+.table_head>.MuiTableRow-root>.MuiTableCell-root {
+	padding: 15px 10px !important;
+	color: #FFF !important;
+	width: 30px !important;
+}
+
+.table_head>.MuiTableRow-root>.MuiTableCell-root>.MuiTableSortLabel-root.Mui-active,
+.MuiTableSortLabel-root:hover {
+	color: #FFF !important;
+	font-size: 15px !important;
+	font-weight: 600 !important;
+}
+
+.table_head>.MuiTableRow-root>.MuiTableCell-root>.MuiTableSortLabel-root.Mui-active .MuiTableSortLabel-icon {
+	color: #FFF !important;
+}
+
+.table_row>.MuiTableCell-root {
+	padding: 10px !important
+}
+
+.table_row_size {
+	width: 130px;
+}
+
+.MuiTableCell-head {
+	font-size: 15px !important;
+	font-weight: 600 !important;
+}
+
+.select_res>.MuiOutlinedInput-input {
+	padding: 13.5px 14px !important;
+}
+
+.span_text {
+	color: #00afb9;
+	margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+	
+	.form_search_field {
+		width: 100%;
+	}
+	.table_row_size>.MuiFormControl-root>.MuiInputBase-root>.MuiSelect-select {
+		width: 200px !important;
+	}
+}
