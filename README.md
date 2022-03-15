@@ -5,12 +5,14 @@ We can re-use this component in blog, user management tools etc.
 # Step #1 - Clone the project (public repository)
 
 $ git clone https://github.com/Gopinath1995/Accordion.git
+
 $ cd Accordion
 
 # Step #2 - Install dependencies via NPM or Yarn
 
 $ npm install
 // OR
+
 $ yarn
 
 # Step #3 - Run the API server
@@ -21,6 +23,7 @@ $ git clone https://github.com/Gopinath1995/DataServer.git
 $ cd DataServer
 
 Install the NPM packages.
+
 The server API will run on Port : 3006
 
 # Step #4 - Run the project
