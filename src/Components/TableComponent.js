@@ -71,7 +71,7 @@ const TableComponent = () => {
     const handleChange = (e) => {
         setStatus(e.target.value);
     }
-
+console.log("test");
     const SearchByValue = (e) => {
         if (
             candidateName.trim() === "" &&
